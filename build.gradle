@@ -27,6 +27,7 @@ repositories {
 dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-integration')
 	implementation('org.springframework.retry:spring-retry')
+	implementation('org.springframework.integration:spring-integration-sftp')
 	runtimeOnly('org.springframework.boot:spring-boot-devtools')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
